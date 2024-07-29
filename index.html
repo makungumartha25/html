@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First HTML Class</title>
+    <style>
+        body {
+            background-color: green;
+        }
+        h1 {
+            color:red;
+        }
+        p,label {
+            color:white;
+        }
+        #square {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 10px;
+            /* padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px; */
+            padding: 10px 5px 7px 3px;
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 50px;
+            border-width: 2px;
+            border-color: yellow;
+            border-style: solid;
+            
+        }
+    </style>
+  </head>
+  <body>
+    <h1>THE BASICS OF HTML</h1>
+    <p>I have learnt the basics of HTML</p>
+    <img src="profile.jpg" alt="Profile" height="100" width="100" />
+    <div id="square">
+    <div>
+        <p>This is the first paragraph</p>
+    </div>
+    </div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <form>
+      <label>name</label> <br />
+
+      <input
+        type="text"
+        placeholder="name here"
+        style="width: 150px"
+        id="name"
+        name="name"
+        value=""
+        class=""
+      />
+
+      <label>email</label> <br />
+      <input type="text" placeholder="email here" id="email"
+      value=""/>
+    </form>
+  </body>
+</html>
