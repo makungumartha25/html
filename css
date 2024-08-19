@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: blue;
+            }
+            <h1{ 
+                color: aqua;
+                text-align: padding: center;
+            }
+            <p{
+                font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 20px
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My First CSS Example</h1>
+        <P>This is a paragraph</P>
+    </body>
+</html>
